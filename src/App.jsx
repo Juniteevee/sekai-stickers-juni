@@ -40,7 +40,7 @@ function App() {
     setInfoOpen(false);
   };
 
-  const [character, setCharacter] = useState(49);
+  const [character, setCharacter] = useState(5);
   const [text, setText] = useState(characters[character].defaultText.text);
   const [position, setPosition] = useState({
     x: characters[character].defaultText.x,
@@ -168,7 +168,6 @@ function App() {
     <div className="App">
       <Info open={infoOpen} handleClose={handleClose} />
       <div className="counter">
-        Total Stickers you made: {config?.total || "Not available"}
       </div>
       <div className="container">
         <div className="vertical">

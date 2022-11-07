@@ -22,9 +22,47 @@ export default function Info({ open, handleClose }) {
       >
         <DialogTitle id="alert-dialog-title">Info</DialogTitle>
         <DialogContent>
-          <DialogContentText id="alert-dialog-description">
+          <DialogContentText id="alert-dialog-description"><Typography variant="h6" component="h3">
+              Modded tool credits:
+            </Typography>
+            <List>
+            <ListItem
+                button
+                onClick={() =>
+                  (window.location.href = "https://github.com/Juniteevee")
+                }
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt="Juni"
+                    src="https://avatars.githubusercontent.com/Juniteevee"
+                  />
+                </ListItemAvatar>
+                <ListItemText
+                  primary="Juni"
+                  secondary="for modifying code"
+                />
+              </ListItem>
+            <ListItem
+                button
+                onClick={() =>
+                  (window.location.href = "https://beacons.ai/turrkoise")
+                }
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt="Turrkoise"
+                    src="https://cdn.beacons.ai/user_content/iQptaU7TlsNjPdI2mQDd4PEJwWX2/profile_turrkoise.png"
+                  />
+                </ListItemAvatar>
+                <ListItemText
+                  primary="Turrkoise"
+                  secondary="for most of my emotes (the professional ones)"
+                />
+              </ListItem>
+            </List>
             <Typography variant="h6" component="h3">
-              This tool made possible by:
+              Original tool credits:
             </Typography>
             <List>
               <ListItem
@@ -106,6 +144,21 @@ export default function Info({ open, handleClose }) {
                 button
                 onClick={() =>
                   (window.location.href =
+                    "https://github.com/Juniteevee/sekai-stickers-juni")
+                }
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt="GitHub"
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                  />
+                </ListItemAvatar>
+                <ListItemText primary="GitHub " secondary="Modded Source Code" />
+              </ListItem>
+              <ListItem
+                button
+                onClick={() =>
+                  (window.location.href =
                     "https://github.com/TheOriginalAyaka/sekai-stickers")
                 }
               >
@@ -115,7 +168,7 @@ export default function Info({ open, handleClose }) {
                     src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
                   />
                 </ListItemAvatar>
-                <ListItemText primary="GitHub" secondary="Source Code" />
+                <ListItemText primary="GitHub" secondary="Original Source Code" />
               </ListItem>
             </List>
           </DialogContentText>
