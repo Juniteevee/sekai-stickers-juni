@@ -57,7 +57,24 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Turrkoise"
-                  secondary="for most of my emotes (the professional ones)"
+                  secondary="for most of Juni's emotes (the professional ones)"
+                />
+              </ListItem>
+            <ListItem
+                button
+                onClick={() =>
+                  (window.location.href = "https://nyrator.carrd.co/")
+                }
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt="Nyrator"
+                    src="https://pbs.twimg.com/profile_images/1553882557900546051/7NDFVoi0_400x400.jpg"
+                  />
+                </ListItemAvatar>
+                <ListItemText
+                  primary="Nyrator"
+                  secondary="for Solae's emotes"
                 />
               </ListItem>
             </List>

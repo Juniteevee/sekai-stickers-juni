@@ -138,6 +138,62 @@
             "r": -2,
             "s": 47
         }
+    },
+    {
+        "id":"10",
+        "name": "Solae Comf",
+        "character": "Solae",
+        "img": "solae/solaeComf.png",
+        "color": "#9266d2",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"10",
+        "name": "Solae Pat",
+        "character": "Solae",
+        "img": "solae/solaePat.png",
+        "color": "#9266d2",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"10",
+        "name": "Solae Peek",
+        "character": "Solae",
+        "img": "solae/solaePeek.png",
+        "color": "#9266d2",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"10",
+        "name": "Solae Smile",
+        "character": "Solae",
+        "img": "solae/solaeSmile.png",
+        "color": "#9266d2",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
     }
   
 ]
