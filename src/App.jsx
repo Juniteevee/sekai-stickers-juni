@@ -64,7 +64,7 @@ function App() {
     setLoaded(false);
   }, [character]);
 
-  img.src = "/img/" + characters[character].img;
+  img.src = "./img/" + characters[character].img;
 
   img.onload = () => {
     setLoaded(true);
