@@ -135,6 +135,28 @@ export default function Info({ open, handleClose }) {
                 <ListItemText primary="Forked from" secondary="Project Sekai Stickers" />
               </ListItem>
             </List>
+            <Typography variant="h6" component="h3">
+              Interested in being added?
+            </Typography>
+            <List>
+            <ListItem
+                button
+                onClick={() =>
+                  (window.location.href = "https://twitter.com/bunhunfun")
+                }
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt="Juni"
+                    src="https://avatars.githubusercontent.com/Juniteevee"
+                  />
+                </ListItemAvatar>
+                <ListItemText
+                  primary="Juni"
+                  secondary="Reach out to me on twitter or discord"
+                />
+              </ListItem>
+            </List>
           </DialogContentText>
         </DialogContent>
         <DialogActions>
