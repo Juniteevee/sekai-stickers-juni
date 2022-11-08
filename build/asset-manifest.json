@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2bdd28e7.css",
+    "main.js": "/static/js/main.b8545192.js",
+    "static/media/YurukaStd.woff2": "/static/media/YurukaStd.e4589185c34a94a462b4.woff2",
+    "static/media/ShangShouFangTangTi.woff2": "/static/media/ShangShouFangTangTi.4b63e6001b3ba64f627e.woff2",
+    "index.html": "/index.html",
+    "main.2bdd28e7.css.map": "/static/css/main.2bdd28e7.css.map",
+    "main.b8545192.js.map": "/static/js/main.b8545192.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bdd28e7.css",
+    "static/js/main.b8545192.js"
+  ]
+}
