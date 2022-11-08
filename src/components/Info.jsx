@@ -23,13 +23,13 @@ export default function Info({ open, handleClose }) {
         <DialogTitle id="alert-dialog-title">Info</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description"><Typography variant="h6" component="h3">
-              Modded tool credits:
+              Featured vTubers:
             </Typography>
             <List>
             <ListItem
                 button
                 onClick={() =>
-                  (window.location.href = "https://github.com/Juniteevee")
+                  (window.location.href = "https://www.twitch.tv/juniteevee")
                 }
               >
                 <ListItemAvatar>
@@ -40,9 +40,31 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Juni"
-                  secondary="for modifying code"
+                  secondary="(also maintained by)"
                 />
               </ListItem>
+            <ListItem
+                button
+                onClick={() =>
+                  (window.location.href = "https://www.twitch.tv/solaetv")
+                }
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt="Solae"
+                    src="https://static-cdn.jtvnw.net/jtv_user_pictures/00ef15d8-7616-48b9-8eed-05b821fc6f0c-profile_image-70x70.png"
+                  />
+                </ListItemAvatar>
+                <ListItemText
+                  primary="Solae"
+                  secondary=""
+                />
+              </ListItem>
+            </List>
+            <Typography variant="h6" component="h3">
+              Artist Credits:
+            </Typography>
+            <List>
             <ListItem
                 button
                 onClick={() =>
@@ -79,82 +101,7 @@ export default function Info({ open, handleClose }) {
               </ListItem>
             </List>
             <Typography variant="h6" component="h3">
-              Original tool credits:
-            </Typography>
-            <List>
-              <ListItem
-                button
-                onClick={() =>
-                  (window.location.href = "https://github.com/theoriginalayaka")
-                }
-              >
-                <ListItemAvatar>
-                  <Avatar
-                    alt="Ayaka"
-                    src="https://avatars.githubusercontent.com/theoriginalayaka"
-                  />
-                </ListItemAvatar>
-                <ListItemText
-                  primary="Ayaka"
-                  secondary="for the original idea"
-                />
-              </ListItem>
-              <ListItem
-                button
-                onClick={() =>
-                  (window.location.href = "https://github.com/modder4869")
-                }
-              >
-                <ListItemAvatar>
-                  <Avatar
-                    alt="Modder4869"
-                    src="https://avatars.githubusercontent.com/modder4869"
-                  />
-                </ListItemAvatar>
-                <ListItemText
-                  primary="Modder4869"
-                  secondary="for the help with the code"
-                />
-              </ListItem>
-              <ListItem
-                button
-                onClick={() =>
-                  (window.location.href =
-                    "https://www.reddit.com/r/ProjectSekai/comments/x1h4v1/after_an_ungodly_amount_of_time_i_finally_made/")
-                }
-              >
-                <ListItemAvatar>
-                  <Avatar
-                    alt="u/SherenPlaysGames"
-                    src="https://styles.redditmedia.com/t5_mygft/styles/profileIcon_n1kman41j5891.jpg"
-                  />
-                </ListItemAvatar>
-                <ListItemText
-                  primary="u/SherenPlaysGames"
-                  secondary="for the original stamps"
-                />
-              </ListItem>
-              <ListItem
-                button
-                onClick={() =>
-                  (window.location.href =
-                    "https://github.com/TheOriginalAyaka/sekai-stickers/graphs/contributors")
-                }
-              >
-                <ListItemAvatar>
-                  <Avatar
-                    alt="Contributors"
-                    src="https://avatars.githubusercontent.com/u/583231"
-                  />
-                </ListItemAvatar>
-                <ListItemText
-                  primary="Contributors"
-                  secondary="for the help with the code"
-                />
-              </ListItem>
-            </List>
-            <Typography variant="h6" component="h3">
-              You can find the source code or contribute here:
+              Source:
             </Typography>
             <List>
               <ListItem
@@ -170,7 +117,7 @@ export default function Info({ open, handleClose }) {
                     src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
                   />
                 </ListItemAvatar>
-                <ListItemText primary="GitHub " secondary="Modded Source Code" />
+                <ListItemText primary="GitHub " secondary="Source Code" />
               </ListItem>
               <ListItem
                 button
@@ -185,7 +132,7 @@ export default function Info({ open, handleClose }) {
                     src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
                   />
                 </ListItemAvatar>
-                <ListItemText primary="GitHub" secondary="Original Source Code" />
+                <ListItemText primary="Forked from" secondary="Project Sekai Stickers" />
               </ListItem>
             </List>
           </DialogContentText>
