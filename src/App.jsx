@@ -264,6 +264,7 @@ function App() {
           </div>
           <div className="picker">
             <Picker setCharacter={setCharacter} />
+           <label className="character-name">{characters[character].character}</label>
           </div>
           <div className="buttons">
             <Button color="secondary" onClick={copy}>

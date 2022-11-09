@@ -1,6 +1,6 @@
 [
     {
-        "id":"0",
+        "id":"juniBlush",
         "name": "Juni Blush",
         "character": "Juni",
         "img": "juni/juniBlush.png",
@@ -14,7 +14,7 @@
         }
     },
     {
-        "id":"1",
+        "id":"juniComf",
         "name": "Juni Comf",
         "character": "Juni",
         "img": "juni/juniComf.png",
@@ -28,7 +28,7 @@
         }
     },
     {
-        "id":"2",
+        "id":"juniHug",
         "name": "Juni Hug",
         "character": "Juni",
         "img": "juni/juniHug.png",
@@ -42,7 +42,7 @@
         }
     },
     {
-        "id":"3",
+        "id":"juniKnife",
         "name": "Juni Knife",
         "character": "Juni",
         "img": "juni/juniKnife.png",
@@ -56,7 +56,7 @@
         }
     },
     {
-        "id":"4",
+        "id":"juniLewd",
         "name": "Juni Lewd",
         "character": "Juni",
         "img": "juni/juniLewd.png",
@@ -70,7 +70,7 @@
         }
     },
     {
-        "id":"5",
+        "id":"juniOwO",
         "name": "Juni OwO",
         "character": "Juni",
         "img": "juni/juniOwO.png",
@@ -84,7 +84,7 @@
         }
     },
     {
-        "id":"6",
+        "id":"juniPat",
         "name": "Juni Pat",
         "character": "Juni",
         "img": "juni/juniPat.png",
@@ -98,7 +98,7 @@
         }
     },
     {
-        "id":"7",
+        "id":"juniPeek",
         "name": "Juni Peek",
         "character": "Juni",
         "img": "juni/juniPeek.png",
@@ -112,7 +112,7 @@
         }
     },
     {
-        "id":"8",
+        "id":"juniShock",
         "name": "Juni Shock",
         "character": "Juni",
         "img": "juni/juniShock.png",
@@ -126,7 +126,7 @@
         }
     },
     {
-        "id":"9",
+        "id":"juniSob",
         "name": "Juni Sob",
         "character": "Juni",
         "img": "juni/juniSob.png",
@@ -140,7 +140,7 @@
         }
     },
     {
-        "id":"10",
+        "id":"solaeComf",
         "name": "Solae Comf",
         "character": "Solae",
         "img": "solae/solaeComf.png",
@@ -154,7 +154,7 @@
         }
     },
     {
-        "id":"10",
+        "id":"solaePat",
         "name": "Solae Pat",
         "character": "Solae",
         "img": "solae/solaePat.png",
@@ -168,7 +168,7 @@
         }
     },
     {
-        "id":"10",
+        "id":"solaePeek",
         "name": "Solae Peek",
         "character": "Solae",
         "img": "solae/solaePeek.png",
@@ -182,11 +182,137 @@
         }
     },
     {
-        "id":"10",
+        "id":"solaeSmile",
         "name": "Solae Smile",
         "character": "Solae",
         "img": "solae/solaeSmile.png",
         "color": "#9266d2",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"nyanAh",
+        "name": "Nyan Ah",
+        "character": "Nyrator",
+        "img": "nyrator/nyanAh.png",
+        "color": "#b8a7e8",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"nyanEeh",
+        "name": "Nyan Eeh",
+        "character": "Nyrator",
+        "img": "nyrator/nyanEeh.png",
+        "color": "#b8a7e8",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"nyanHmm",
+        "name": "Nyan Hmm",
+        "character": "Nyrator",
+        "img": "nyrator/nyanHmm.png",
+        "color": "#b8a7e8",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"nyanLove",
+        "name": "Nyan Love",
+        "character": "Nyrator",
+        "img": "nyrator/nyanLove.png",
+        "color": "#b8a7e8",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"nyanPat",
+        "name": "Nyan Pat",
+        "character": "Nyrator",
+        "img": "nyrator/nyanPat.png",
+        "color": "#b8a7e8",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"nyanUwa",
+        "name": "Nyan Uwa",
+        "character": "Nyrator",
+        "img": "nyrator/nyanUwa.png",
+        "color": "#b8a7e8",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"nyanWah",
+        "name": "Nyan Wah",
+        "character": "Nyrator",
+        "img": "nyrator/nyanWah.png",
+        "color": "#b8a7e8",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"nyanWeh",
+        "name": "Nyan Weh",
+        "character": "Nyrator",
+        "img": "nyrator/nyanWeh.png",
+        "color": "#b8a7e8",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"nyanZzz",
+        "name": "Nyan Zzz",
+        "character": "Nyrator",
+        "img": "nyrator/nyanZzz.png",
+        "color": "#b8a7e8",
         "defaultText": {
             "text": "something",
             "x": 148,

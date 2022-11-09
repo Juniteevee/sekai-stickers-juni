@@ -33,6 +33,11 @@
   margin-left: -30px;
 }
 
+.character-name{
+  color: white;
+  font-family: "YurukaStd";
+}
+
 .settings {
   color: white;
   font-family: "YurukaStd";

@@ -40,7 +40,7 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Juni"
-                  secondary="(also maintained by)"
+                  secondary=""
                 />
               </ListItem>
             <ListItem
@@ -57,6 +57,23 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Solae"
+                  secondary=""
+                />
+              </ListItem>
+            <ListItem
+                button
+                onClick={() =>
+                  (window.location.href = "https://www.twitch.tv/nyrator")
+                }
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt="Nyrator"
+                    src="https://pbs.twimg.com/profile_images/1553882557900546051/7NDFVoi0_400x400.jpg"
+                  />
+                </ListItemAvatar>
+                <ListItemText
+                  primary="Nyrator"
                   secondary=""
                 />
               </ListItem>
@@ -96,7 +113,7 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Nyrator"
-                  secondary="for Solae's emotes"
+                  secondary="for Solae and Nyrator's emotes"
                 />
               </ListItem>
             </List>
