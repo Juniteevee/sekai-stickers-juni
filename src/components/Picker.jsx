@@ -7,10 +7,35 @@ import {
 } from "@mui/material";
 import { useState, useMemo } from "react";
 import characters from "../characters.json";
+import { useKonami } from 'react-konami-code';
+
+
+
 
 export default function Picker({ setCharacter }) {
   const [anchorEl, setAnchorEl] = useState(null);
   const [search, setSearch] = useState("");
+
+  const easterEgg = () => {
+    characters.push(
+      {
+        "id":"invis",
+        "name": "Invis",
+        "character": "Invis",
+        "img": "invis/invis.png",
+        "color": "#789a8a",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+      }
+    )
+  }
+
+  useKonami(easterEgg);
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -25,7 +50,7 @@ export default function Picker({ setCharacter }) {
 
   // Memoize the filtered image list items to avoid recomputing them
   // at every render
-  const memoizedImageListItems = useMemo(() => {
+  let memoizedImageListItems = useMemo(() => {
     const s = search.toLowerCase();
     return characters.map((c, index) => {
       if (
@@ -61,7 +86,7 @@ export default function Picker({ setCharacter }) {
       }
       return null;
     });
-  }, [search, setCharacter]);
+  }, [search, setCharacter, easterEgg]);
 
   return (
     <div>
