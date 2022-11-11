@@ -77,6 +77,23 @@ export default function Info({ open, handleClose }) {
                   secondary=""
                 />
               </ListItem>
+            <ListItem
+                button
+                onClick={() =>
+                  (window.location.href = "https://www.twitch.tv/nyrator")
+                }
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt="JJsamachama"
+                    src="https://static-cdn.jtvnw.net/jtv_user_pictures/c06cd804-6ee8-46b4-93c5-efbbe7faf48f-profile_image-70x70.jpeg"
+                  />
+                </ListItemAvatar>
+                <ListItemText
+                  primary="JJsamachama"
+                  secondary=""
+                />
+              </ListItem>
             </List>
             <Typography variant="h6" component="h3">
               Artist Credits:
@@ -96,7 +113,7 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Turrkoise"
-                  secondary="for most of Juni's emotes (the professional ones)"
+                  secondary="Juni's emotes (the professional ones)"
                 />
               </ListItem>
             <ListItem
@@ -113,7 +130,7 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Nyrator"
-                  secondary="for Solae and Nyrator's emotes"
+                  secondary="Solae, JJ, and Nyrator's emotes"
                 />
               </ListItem>
             </List>

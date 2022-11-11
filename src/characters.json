@@ -320,6 +320,146 @@
             "r": -2,
             "s": 47
         }
+    },
+    {
+        "id":"jjDisgust",
+        "name": "JJ Disgust",
+        "character": "JJsamachama",
+        "img": "jj/jjDisgust.png",
+        "color": "#ad1e20",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"jjDrill",
+        "name": "JJ Drill",
+        "character": "JJsamachama",
+        "img": "jj/jjDrill.png",
+        "color": "#ad1e20",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"jjGlasses",
+        "name": "JJ Glasses",
+        "character": "JJsamachama",
+        "img": "jj/jjGlasses.png",
+        "color": "#ad1e20",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"jjHype",
+        "name": "JJ Hype",
+        "character": "JJsamachama",
+        "img": "jj/jjHype.png",
+        "color": "#ad1e20",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"jjIkz",
+        "name": "JJ Ikz",
+        "character": "JJsamachama",
+        "img": "jj/jjIkz.png",
+        "color": "#ad1e20",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"jjMeh",
+        "name": "JJ Meh",
+        "character": "JJsamachama",
+        "img": "jj/jjMeh.png",
+        "color": "#ad1e20",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"jjSad",
+        "name": "JJ Sad",
+        "character": "JJsamachama",
+        "img": "jj/jjSad.png",
+        "color": "#ad1e20",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"jjScared",
+        "name": "JJ Scared",
+        "character": "JJsamachama",
+        "img": "jj/jjScared.png",
+        "color": "#ad1e20",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"jjSnarl",
+        "name": "JJ Snarl",
+        "character": "JJsamachama",
+        "img": "jj/jjSnarl.png",
+        "color": "#ad1e20",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id":"jjThumbsup",
+        "name": "JJ Thumbs Up",
+        "character": "JJsamachama",
+        "img": "jj/jjThumbsup.png",
+        "color": "#ad1e20",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
     }
   
 ]

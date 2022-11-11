@@ -15,6 +15,7 @@ const { ClipboardItem } = window;
 
 function App() {
   const [config, setConfig] = useState(null);
+  const canCopy = !!ClipboardItem;
 
   // using this to trigger the useEffect because lazy to think of a better way
   const [rand, setRand] = useState(0);
@@ -267,7 +268,7 @@ function App() {
            <label className="character-name">{characters[character].character}</label>
           </div>
           <div className="buttons">
-            <Button color="secondary" onClick={copy}>
+            <Button color="secondary" onClick={copy} disabled={!canCopy}>
               copy
             </Button>
             <Button color="secondary" onClick={download}>

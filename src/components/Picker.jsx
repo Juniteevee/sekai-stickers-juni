@@ -17,22 +17,22 @@ export default function Picker({ setCharacter }) {
   const [search, setSearch] = useState("");
 
   const easterEgg = () => {
-    characters.push(
-      {
-        "id":"invis",
-        "name": "Invis",
-        "character": "Invis",
-        "img": "invis/invis.png",
-        "color": "#789a8a",
-        "defaultText": {
-            "text": "something",
-            "x": 148,
-            "y": 58,
-            "r": -2,
-            "s": 47
+      characters.push(
+        {
+          "id":"invis",
+          "name": "Invis",
+          "character": "Invis",
+          "img": "invis/invis.png",
+          "color": "#789a8a",
+          "defaultText": {
+              "text": "something",
+              "x": 148,
+              "y": 58,
+              "r": -2,
+              "s": 47
+          }
         }
-      }
-    )
+      )
   }
 
   useKonami(easterEgg);
