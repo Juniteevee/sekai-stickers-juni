@@ -80,7 +80,7 @@ export default function Info({ open, handleClose }) {
             <ListItem
                 button
                 onClick={() =>
-                  (window.location.href = "https://www.twitch.tv/nyrator")
+                  (window.location.href = "https://www.twitch.tv/jjsamachama")
                 }
               >
                 <ListItemAvatar>
